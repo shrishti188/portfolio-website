@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+
+}body {
+    font-family: 'Arial', sans-serif;
+    background-color: pink;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 80px;
+}
+
+header h1 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 65px;
+}
+
+header p {
+    font-style: italic;
+}
+
+nav {
+    background-color: rgb(254, 242, 247);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#home, #resume{
+   
+    padding: 50px; /* Add padding for spacing */
+    
+    color: #333; /* Text color */
+}
+
+#home h2 ,#contact h2,#resume h2,#portfolio h2{
+
+    font-size: 32px;
+}
+
+#home p {
+   
+    font-size: 18px; /* Set the font size */
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(247, 207, 223);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: rgb(18, 17, 17);
+}
+
+.project {
+    margin-top: 20px;
+}
+.project-image {
+    width: 300px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.contact-intro {
+    margin-bottom: 0;
+}
+
+.resume-link {
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
